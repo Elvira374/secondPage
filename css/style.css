@@ -1,0 +1,457 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face {
+	font-family: 'Back to Black Demo';
+	src: url('../fonts/back_to_black_demo.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/back_to_black_demo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/back_to_black_demo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/back_to_black_demo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/back_to_black_demo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/back_to_black_demo.svg#back_to_black_demo') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    background: url(../img/Layer.png) no-repeat top center;
+    background-size: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #969595;
+}
+.wrapper {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(105,105,105,0.5)), to(rgba(255,255,255,0)));
+    background-image: -o-linear-gradient(top, rgba(105,105,105,0.5) 0%, rgba(255,255,255,0));
+    background-image: linear-gradient(to bottom, rgba(105,105,105,0.5) 0%, rgba(255,255,255,0));
+}
+/*----------------------header------------------------*/
+header {
+    width: 70%;
+    margin: 0 auto;
+}
+.nav-container {
+    text-align: center;
+    padding-top: 2%;
+    border-bottom: 1px solid #a7a19f;
+}
+.logo  {
+    font-family: 'Back to Black Demo',sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    float: left;
+}
+nav a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    color: #fff;
+    padding: 2.3em 2%;
+    font-family: 'Vidaloka', serif;
+}
+.icon {
+    display: none;
+}
+nav a:hover {
+    border-bottom: 1px solid #ffeb3b;
+    color: #ffeb3b;
+}
+.slider h1 {
+    clear: left;
+    padding: 10% 0 20%;
+    font-family: 'Back to Black Demo',sans-serif;
+    color: #fff;
+    font-size: 17.5rem;
+    text-align: center;
+}
+.slider span {
+    font-size: 6.875rem;
+}
+/*----------------------core-services------------------------*/
+.core-services {
+    width: 70%;
+    margin: 0 auto; 
+}
+.core-services a {
+    color: #ffeb3b;
+}
+h2 {
+    padding: 8% 0;
+    font-family: 'Vidaloka', serif;
+    font-size: 2.25rem;
+    text-align: center;
+    color: #000;
+}
+.core-service {
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+}
+.core-service img {
+    float: left;
+    padding: 0 2% 6% 2%;
+}
+.core-service h3 {
+    padding-left: 30%;
+    padding-bottom: 5%;
+    font-family: 'Vidaloka', serif;
+    font-weight: 900;
+    color: #000;
+}
+.core-service p {
+    padding-left: 30%;
+}
+/*----------------------stats------------------------*/
+.stats-bg {
+    background: url(../img/Background.png);
+}
+.stats {
+    width: 70%;
+    margin: 5% auto 0; 
+    padding: 5%;
+}
+.stat {
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+}
+.stat img {
+    display: block;
+    margin: 2% auto;
+}
+.stat span {
+    display: block;
+    font-size: 3.75rem;
+    padding: 10%;
+    color: #fff;
+}
+.stat p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 10%;
+    color: #ffeb3b;
+}
+/*----------------------portfolio------------------------*/
+.portfolio-wrapper {
+    width: 70%;
+    margin: 5% auto 0;
+    text-align: center
+}
+.portfolio h2 {
+    padding-bottom: 3%;
+}
+.navigation {
+    margin: 7% 0;
+}
+.navigation a {
+    display: inline-block;
+    padding: 1% 3%;
+    border: 2px solid #ffeb3b;
+    color: #000;
+}
+.navigation a:hover {
+    background: #ffeb3b;
+}
+.col-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.col-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.work1 {
+    width: 26%;
+    float: left;
+}
+.work2, 
+.work3,
+.work4,
+.work5,
+.work6 {
+    width: 100%;
+}
+.works figure {
+    position: relative;
+}
+.works figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,235,59,.7);
+    font-size: .9em;
+    color: #000;
+    opacity: 0;
+    height: 100%;
+    text-align: left;
+    padding: 10%;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    transition: opacity .75s ease-out;
+}
+.works figure:hover figcaption {
+     opacity: 1;
+}
+.works span {
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 7% 0;
+    font-family: 'Vidaloka', serif;
+}
+/*----------------------services------------------------*/
+.services {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.services p {
+    margin-bottom: 10%;
+}
+.services h2 {
+    padding-bottom: 3%
+}
+.service {
+    display: inline-block;
+    width: 30%;
+    padding: 3% 1%;
+    margin: 1%;
+    color: white;
+}
+.service h3 {
+    font-weight: bold;
+    padding: 10%;
+}
+.service a {
+    color: #ffeb3b;
+    border-bottom: 1px solid;
+}
+.service p {
+    padding-bottom: 10%;
+}
+.color1{
+    background: #ff5252;
+}
+.color2{
+    background: #4caf50;
+}
+.color3{
+    background: #673ab7;
+}
+.color4{
+    background: #2196f3;
+}
+.color5{
+    background: #af8db9;
+}
+.color6{
+    background: #00bcd4;
+}
+/*----------------------clints-----------------------*/
+.clients-bg {
+    background: url(../img/Background.png);
+    margin-top: 8%;
+}
+.clients {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.clients h2 {
+    padding-bottom: 3%;
+    text-align: left;
+    color: white;
+}
+.clients p {
+    text-align: left;
+}
+.clients figure {
+    display: inline-block;
+    width: 20%;
+    margin: 5% 1%;
+   text-align: center;
+}
+/*----------------------team-----------------------*/
+.team {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.team h2 {
+    padding-bottom: 3%;
+}
+.team p {
+    padding-bottom: 7%;
+}
+.photo {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid #f1f1f1;
+    margin: 0 1%;
+}
+.photo span {
+    display: block;
+    padding: 5% 0;
+    font-weight: bold;
+    color: #000;
+}
+.photo img {
+    width: 100%;
+}
+.photo p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*----------------------footer----------------------*/
+footer {
+    background: url(../img/Background.png);
+}
+.footer-wrapper {
+    background: rgba(255,255,255,.1);
+}
+.footer-wrapper h2 {
+    padding: 5% 0;
+    color: white;
+}
+.join-us {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.join-us p {
+    color: #969595;
+    padding: 2% 0;
+}
+.join-us input {
+    padding: 0.6% 2%;
+    margin: 2% 0.8% 5% 0;
+    font-size: 0.9rem;
+}
+.join-us input[type="email"] {
+    background: #5b5e66;
+    border: none;
+    color: white;
+    padding-right: 6%;
+}
+.join-us input[type="submit"] {
+    background: #ffeb3b;
+    border: none;
+}
+.copy {
+    width: 70%;
+    margin: 3% auto;
+    text-align: center;
+    color: #fff;
+}
+.logotip {
+    display: block;
+    font-family: 'Back to Black Demo',sans-serif;
+    font-size: 2rem;
+}
+.foot {
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+    html {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 1250px) {
+    html {
+        font-size: 0.7em;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 1030px) {
+    html {
+        font-size: 0.5em;
+    }
+    nav a {
+		display: none;
+	}
+    a.icon {
+        text-align: right;
+		margin-top: -1em;;
+		display: block;
+		color: #fff;
+		font-size: 2rem;
+	}
+    nav a {
+        padding: 1.7em 2%;
+    }
+    .clients figure {
+        width: 45%;
+    }
+    .join-us input[type="email"] {
+        display: block;
+        margin: 0 auto;
+    }
+    .join-us input[type="email"] {
+        padding: 4%;
+    }
+    .join-us input[type="submit"] {
+        padding: 4%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .slider h1 {
+        font-size: 9.5rem;
+        padding: 15% 0;
+    }
+    .slider span {
+        font-size: 4.75rem;
+    }
+    .core-service {
+        width: 48%;
+    }
+    .stat {
+        width: 45%;
+    }
+    .service {
+        width: 40%;
+    }
+    .photo {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .slider h1 {
+        padding: 5% 0;
+        font-size: 7.5rem;
+    }
+    .slider span {
+        font-size: 3.75rem;
+    }
+}
+	
+	
