@@ -396,6 +396,9 @@ footer {
     html {
         font-size: 0.5em;
     }
+	p {
+		font-size: 2rem;
+	}
     nav a {
 		display: none;
 	}
