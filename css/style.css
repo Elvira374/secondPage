@@ -142,7 +142,7 @@ h2 {
 .portfolio-wrapper {
     width: 70%;
     margin: 5% auto 0;
-    text-align: center
+    text-align: center;
 }
 .portfolio h2 {
     padding-bottom: 3%;
@@ -388,7 +388,7 @@ footer {
     html {
         font-size: 0.7em;
     }
-    p{
+    p {
         font-size: 1.4rem;
     }
 }
@@ -396,18 +396,18 @@ footer {
     html {
         font-size: 0.5em;
     }
-	p {
-		font-size: 2rem;
-	}
+    p {
+	font-size: 2rem;
+    }
     nav a {
-		display: none;
-	}
+	display: none;
+    }
     a.icon {
         text-align: right;
-		margin-top: -1em;;
-		display: block;
-		color: #fff;
-		font-size: 2rem;
+	margin-top: -1em;;
+	display: block;
+	color: #fff;
+	font-size: 2rem;
 	}
     nav a {
         padding: 1.7em 2%;
@@ -444,6 +444,12 @@ footer {
         width: 40%;
     }
     .photo {
+        width: 100%;
+    }
+    .core-services {
+        width: 100%;
+    }
+    .services {
         width: 100%;
     }
 }
