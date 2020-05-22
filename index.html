@@ -7,21 +7,31 @@
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Vidaloka&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js"></script>
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="nav-container">
                 <a href="#" class="logo "><img src="img/Group.png" alt="Logo">Bagdum</a>
-                <nav class="topnav" id="myTopnav">
+                <nav class="topnav">
                     <a href="#">Home</a>
                     <a href="#">Services</a>
                     <a href="#">Portfolio</a>
                     <a href="#">About</a>
                     <a href="#">Pricing</a>
                     <a href="#">Contact</a>
-                    <a href="#" id="menu" class="icon">&#9776;</a>
                 </nav>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                       <a href="#">Home</a>
+                       <a href="#">About</a>
+                       <a href="#">Portfolio</a>
+                       <a href="#">Blog</a>
+                       <a href="#">Contact</a>
+                    </div>
+                </div>
             </div>
             <div class="slider">
                 <h1><span>We Are</span><br> Creative</h1>
