@@ -200,6 +200,7 @@ nav a:hover {
     height: 100%;
     text-align: left;
     padding: 10%;
+    overflow: auto;
     -webkit-transition: opacity .75s ease-out;
     -o-transition: opacity .75s ease-out;
     transition: opacity .75s ease-out;
