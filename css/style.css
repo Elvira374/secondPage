@@ -88,7 +88,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10em 0;
+    padding: 3em 0 15em;
 }
 /*----------------------core-services------------------------*/
 .core-services {
